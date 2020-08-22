@@ -1,0 +1,17 @@
+{
+  "name": "ETH Gas Station",
+  "version": "1.0",
+  "description": "Shows you current ETH Gas info",
+  "manifest_version": 2,
+  "permissions": [
+    "alarms"
+  ],
+  "background": {
+    "scripts": ["index.js"],
+    "persistent": false
+  },
+  "icons": {
+    "57": "logo.png"
+  },
+  "browser_action": {}
+}
